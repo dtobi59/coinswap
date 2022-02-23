@@ -8,9 +8,13 @@ This project used [sanity](https://www.sanity.io/), hence ensure you create an a
 Don't forget to setup metamask. 
 
     1. git clone https://github.com/dtobi59/coinswap.git
-    2. cd studio
+    2. cd studio && npm install
     3. sanity start
     4. cd ..
-    5. cd client
-    6. npm run dev
+    5. cd blockchain
+    6. npm install
+    7. npx hardhat run scripts/deploy.js
+    8. cd client
+    9. npm install
+    10. npm run dev
    

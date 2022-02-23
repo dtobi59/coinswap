@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.8.1",
     "@sanity/client": "^3.1.0",
     "ethers": "^5.5.4",
     "next": "12.1.0",

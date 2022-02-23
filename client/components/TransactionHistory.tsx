@@ -51,7 +51,7 @@ const TransactionHistory = () => {
               on{' '}
               <div className={style.txTimestamp}>
                 {new Date(transaction.timestamp).toLocaleString('en-US', {
-                  timeZone: 'PST',
+                  timeZone: 'GMT',
                   hour12: true,
                   timeStyle: 'short',
                   dateStyle: 'long',
@@ -59,7 +59,7 @@ const TransactionHistory = () => {
               </div>
               <div className={style.etherscanLink}>
                 <a
-                  href={`https://rinkeby.etherscan.io/tx/${transaction.txHash}`}
+                  href={`https://kovan.etherscan.io/tx/${transaction.txHash}`}
                   target='_blank'
                   rel='noreferrer'
                   className={style.etherscanLink}

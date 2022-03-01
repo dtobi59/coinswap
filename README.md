@@ -2,6 +2,9 @@
 
 This is a simple web3 app that enables users to transfer crypto asset from wallet address to anthor. The guide below helps you to get started on your local environment. NOTE: This project is build for educational purposes. 
 
+# Demo
+https://coinswap-pqlas75h5-dtobi59.vercel.app/
+
 ## Guide
 This project used [sanity](https://www.sanity.io/), hence ensure you create an account and setup a project before proceeding. 
 
